@@ -7,7 +7,9 @@ export function App() {
 
     return (
     <>
-        <Heading />
+        <Heading attr={123} attr2='string'>
+            Pomodoro Timer
+        </Heading>
         <p>Welcome to the Pomodoro Timer app!</p>
     </>
     );
